@@ -2,8 +2,8 @@ server:
   port: 8088
 
 jwt:
-  #eneler_key
-  secret: U2FsdGVkX1/BLytas9jfD1Q0jzOZFBE64Z2tUJvziPU=
+  #your_key
+  secret:
   expiration: 3600000
 
 spring:
@@ -15,6 +15,6 @@ spring:
       ddl-auto: update
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_SCHEMA:eneler}
-    username: ${DB_USERNAME:alex_roosevelt}
-    password: ${DB_PASSWORD:postgres}
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_SCHEMA:security}
+    username: ${DB_USERNAME:}
+    password: ${DB_PASSWORD:}

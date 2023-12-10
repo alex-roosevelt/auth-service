@@ -10,10 +10,10 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.project</groupId>
-  <artifactId>eneler</artifactId>
+  <artifactId>security</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>eneler</name>
-  <description>eneler</description>
+  <name>security</name>
+  <description>security</description>
   <properties>
     <java.version>17</java.version>
   </properties>
